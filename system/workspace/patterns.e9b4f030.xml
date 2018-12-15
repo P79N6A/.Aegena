@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="574499736">
+      <usages-collector id="statistics.lifecycle.project">
+        <usage id="project.opened" value="6" />
+        <usage id="project.open.time.2" value="2" />
+        <usage id="project.closed" value="6" />
+        <usage id="project.open.time.4" value="1" />
+        <usage id="project.open.time.7" value="1" />
+        <usage id="project.open.time.12" value="1" />
+        <usage id="project.open.time.10" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <usage id="JAVA" value="9" />
+        <usage id="Markdown" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.run.configuration.start">
+        <usage id="Application" value="4">
+          <context>
+            <entry key="data_1" value="Run" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.terminalShell">
+        <usage id="local.exec" value="1">
+          <context>
+            <entry key="data_1" value="Windows" />
+            <entry key="data_2" value="Windows 10 10.0" />
+            <entry key="data_3" value="cmd" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <usage id="JAVA" value="1" />
+      </usages-collector>
+    </session>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/GalaxyMobile" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" commandHistoryFileName="history-" />
+    </option>
+  </component>
+  <component name="VcsLogIndexCollector">
+    <option name="indexTime" value="354" />
+  </component>
+</project>

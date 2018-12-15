@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FUSProjectUsageTrigger">
+    <session id="721777067">
+      <usages-collector id="statistics.lifecycle.project">
+        <usage id="project.opened" value="6" />
+        <usage id="project.open.time.9" value="1" />
+        <usage id="project.closed" value="6" />
+        <usage id="project.open.time.11" value="1" />
+        <usage id="project.open.time.36" value="2" />
+        <usage id="project.open.time.33" value="1" />
+        <usage id="project.open.time.31" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.run.configuration.start">
+        <usage id="com.poratu.idea.plugins.tomcat" value="3">
+          <context>
+            <entry key="data_1" value="Run" />
+          </context>
+        </usage>
+        <usage id="MavenRunConfiguration" value="2">
+          <context>
+            <entry key="data_1" value="Run" />
+          </context>
+        </usage>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <usage id="JAVA" value="10" />
+        <usage id="XML" value="1" />
+        <usage id="IDEA_MODULE" value="1" />
+      </usages-collector>
+      <usages-collector id="statistics.build.maven.actions">
+        <usage id="DownloadAllSourcesAndDocsAction" value="1">
+          <context>
+            <entry key="data_1" value="Maven Navigator Toolbar" />
+            <entry key="data_2" value="fromContextMenu.true" />
+          </context>
+        </usage>
+        <usage id="RunBuildAction" value="2">
+          <context>
+            <entry key="data_1" value="Maven tool window" />
+            <entry key="data_2" value="fromContextMenu.false" />
+          </context>
+        </usage>
+        <usage id="DownloadAllSourcesAndDocsAction" value="1">
+          <context>
+            <entry key="data_1" value="Maven tool window" />
+            <entry key="data_2" value="fromContextMenu.true" />
+          </context>
+        </usage>
+        <usage id="UpdateFoldersAction" value="1">
+          <context>
+            <entry key="data_1" value="Maven Navigator Toolbar" />
+            <entry key="data_2" value="fromContextMenu.false" />
+          </context>
+        </usage>
+        <usage id="ReimportAction" value="1">
+          <context>
+            <entry key="data_1" value="Maven Navigator Toolbar" />
+            <entry key="data_2" value="fromContextMenu.false" />
+          </context>
+        </usage>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/GalaxyMobile" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../galaxy-android/branches/YimiMobile" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<idea-plugin version="2">
+  <version>2.0.1</version>
+  <id>com.github.shiraji.permissionsdispatcherplugin</id>
+  <name>PermissionsDispatcher plugin</name>
+  <vendor email="isogai.shiraji@gmail.com" url="https://github.com/shiraji">Shiraji</vendor>
+  <description>
+    IntelliJ plugin for supporting PermissionsDispatcher. This is official plugin.
+
+    PermissionsDispatcher is wonderful library for Runtime Permissions. However, it asks developers "attach annotations" and "delegate to generated class" and then after that "rebuild". It's hard to follow all steps correctly. This plugin generates the skelton of methods for "attach annotations" and "delegate to generated class" using GUI.
+    </description>
+  <change-notes>
+        &lt;p&gt;2.0.1&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Fix the problem with isHigherThan2_2 #88 - Thanks @edu-lance for reporting&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Older version changes are listed on &lt;a href="https://github.com/permissions-dispatcher/permissions-dispatcher-plugin/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;&lt;/p&gt;
+    
+    </change-notes>
+  <idea-version since-build="143"/>
+  <depends optional="true">org.jetbrains.kotlin</depends>
+  <depends>org.intellij.groovy</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationConfigurable instance="com.github.shiraji.permissionsdispatcherplugin.views.GeneratePMCodeConfiguration"/>
+  </extensions>
+  <actions>
+    <action id="com.github.shiraji.permissionsdispatcherplugin.actions.GeneratePMCodeAction" class="com.github.shiraji.permissionsdispatcherplugin.actions.GeneratePMCodeAction" text="Generate Runtime Permissions...">
+      <add-to-group group-id="JavaGenerateGroup1" anchor="last"/>
+    </action>
+    <action id="com.github.shiraji.permissionsdispatcherplugin.actions.AddDelegationMethod" class="com.github.shiraji.permissionsdispatcherplugin.actions.AddDelegationMethod" text="Add a delegation method call">
+      <add-to-group group-id="JavaGenerateGroup1" anchor="last"/>
+    </action>
+    <action id="com.github.shiraji.permissionsdispatcherplugin.actions.AddOnShowRationaleMethod" class="com.github.shiraji.permissionsdispatcherplugin.actions.AddOnShowRationaleMethod" text="Generate onShowRationaleMethod...">
+      <add-to-group group-id="JavaGenerateGroup1" anchor="last"/>
+    </action>
+    <action id="com.github.shiraji.permissionsdispatcherplugin.actions.AddPMDependencies" class="com.github.shiraji.permissionsdispatcherplugin.actions.AddPMDependencies" text="Add PermissionsDispatcher dependencies">
+      <add-to-group group-id="GroovyGenerateGroup1" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>

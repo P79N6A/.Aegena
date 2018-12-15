@@ -1,0 +1,41 @@
+<application>
+  <component name="DimensionService">
+    <location key="SettingsEditor.0.0.1920.1080" x="237" y="83" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="232" y="329" />
+    <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="601" y="93" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="962" y="440" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="640" y="347" />
+    <location key="#app.0.0.1920.1080" x="698" y="183" />
+    <location key="AndroidProcessChooserDialog.0.0.1920.1080" x="815" y="288" />
+    <location key="org.intellij.images.editor.actions.BackgroundImageDialog.0.0.1920.1080" x="417" y="61" />
+    <location key="#Inspections.0.0.1920.1080" x="592" y="202" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" x="681" y="326" />
+    <location key="#Plugins.0.0.1920.1080" x="582" y="0" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="704" y="359" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="287" y="586" />
+    <location key="deploy.picker.dialog.0.0.1920.1080" x="640" y="278" />
+    <location key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor.0.0.1920.1080" x="540" y="178" />
+    <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1920.1080" x="806" y="413" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="414" y="178" />
+    <location key="#com.intellij.ide.util.TreeClassChooserDialog.0.0.1920.1080" x="689" y="309" />
+    <location key="new project wizard.0.0.1920.1080" x="567" y="134" />
+    <location key="FileChooserDialogImpl.1920.0.1920.1080" x="2660" y="278" />
+    <location key="new project wizard.1920.0.1920.1080" x="2487" y="134" />
+    <location key="#Project_Structure.0.0.1920.1080" x="440" y="98" />
+    <location key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog.0.0.1920.1080" x="640" y="258" />
+    <location key="search.everywhere.popup.0.0.1920.1080" x="623" y="227" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="1031" height="696" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1271" height="714" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1007" height="221" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1007" height="221" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1007" height="221" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1007" height="221" />
+    <size key="org.intellij.images.editor.actions.BackgroundImageDialog.0.0.1920.1080" width="1175" height="852" />
+    <size key="#Plugins.0.0.1920.1080" width="755" height="767" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="1207" height="194" />
+    <size key="GridCell.Tab.0.left.1920.0.1920.1080" width="1876" height="272" />
+    <size key="GridCell.Tab.0.center.1920.0.1920.1080" width="1876" height="272" />
+    <size key="GridCell.Tab.0.right.1920.0.1920.1080" width="1876" height="272" />
+    <size key="GridCell.Tab.0.bottom.1920.0.1920.1080" width="1876" height="272" />
+  </component>
+</application>

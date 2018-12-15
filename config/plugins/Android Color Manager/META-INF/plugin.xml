@@ -1,0 +1,65 @@
+<idea-plugin version="2" url="https://plugins.jetbrains.com/plugin/8583">
+  <id>com.github.shiraji.colormanager</id>
+  <name>Android Color Manager</name>
+  <version>1.1.6</version>
+  <vendor email="isogai.shiraji@gmail.com" url="http://github.com/shiraji">Shiraji</vendor>
+  <description>
+&lt;p&gt;The plugin that manages Android colors. This plugin create a tool windows. &lt;/p&gt;
+&lt;p&gt;Open &amp;quot;Color Manager&amp;quot; tool window. You will see all colors listed&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/normal.png" alt="normal"&gt;&lt;/p&gt;
+&lt;h2 id="drag-and-drop"&gt;Drag and Drop&lt;/h2&gt;
+&lt;p&gt;From v1.1.0, this plugin support drag and drop feature.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select a file where you want to drop&lt;/li&gt;
+&lt;li&gt;Drag the color panel&lt;/li&gt;
+&lt;li&gt;Drop where you want to copy the color name/tag&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If the selected file is not xml file, then the drop text format is &lt;code&gt;R.color.color_name&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/dnd.gif" alt="dnd"&gt;&lt;/p&gt;
+&lt;p&gt;If the selected file is xml, then the drop text format is &lt;code&gt;@color/color_name&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/dndxml.gif" alt="dndxml"&gt;&lt;/p&gt;
+&lt;p&gt;At this moment, there is no way to detect drop target file&amp;#39;s type. So, if you select a xml file and drop text to a Java file, this plugin pastes &lt;code&gt;@color/color_name&lt;/code&gt; not &lt;code&gt;R.color.color_name&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="copy"&gt;Copy&lt;/h2&gt;
+&lt;p&gt;Right click a color listed on the tool window&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/right_click.png" alt="right_click"&gt;&lt;/p&gt;
+&lt;p&gt;Click &amp;quot;Copy R.color.whatever_color_name&amp;quot; or &amp;quot;Copy @color/whatever_color_name&amp;quot;&lt;/p&gt;
+&lt;p&gt;You can also copy color name (&amp;quot;R.color.whatever_color_name&amp;quot; style) by cmd+c (or ctrl+c) after selecting the color panel&lt;/p&gt;
+&lt;h2 id="move-to-the-color-definition"&gt;Move to the color definition&lt;/h2&gt;
+&lt;p&gt;Same as Copy. Right click and click &amp;quot;Go to R.color.whatever_color_name&amp;quot;&lt;/p&gt;
+&lt;p&gt;Or just double click an item&lt;/p&gt;
+&lt;h2 id="edit-the-color-code"&gt;Edit the color code&lt;/h2&gt;
+&lt;p&gt;Click &amp;quot;Edit R.color.whatever_color_name&amp;quot; and choose new color&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/edit.gif" alt="edit"&gt;&lt;/p&gt;
+&lt;h2 id="delete-a-color"&gt;Delete a color&lt;/h2&gt;
+&lt;p&gt;Same as Copy and move. Right click and click &amp;quot;Delete R.color.whatever_color_name&amp;quot;&lt;/p&gt;
+&lt;p&gt;It will show confirmation dialog before deleting the color tag.&lt;/p&gt;
+&lt;h2 id="search"&gt;Search&lt;/h2&gt;
+&lt;p&gt;Just start typing after focusing tool window&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/search.png" alt="search"&gt;&lt;/p&gt;
+&lt;h2 id="show-all-colors"&gt;Show all colors&lt;/h2&gt;
+&lt;p&gt;As default, this plugin filter library&amp;#39;s color because there are a lot.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/filter.png" alt="filter"&gt;&lt;/p&gt;
+&lt;p&gt;You can un-filter those by clicking &amp;quot;Filter&amp;quot; icon (It takes a few second to show all colors)&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/no_filter.png" alt="no_filter"&gt;&lt;/p&gt;
+&lt;h2 id="sort-by-color-name"&gt;Sort by color name&lt;/h2&gt;
+&lt;p&gt;You can sort by color name by clicking sort icon&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/no_sort.png" alt="no_sort"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/shiraji/color-manager/raw/master/website/images/sort.png" alt="sort"&gt;&lt;/p&gt;
+
+    </description>
+  <change-notes>
+        &lt;p&gt;1.1.6&lt;/p&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Support finding color by color code #40&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;Older version changes are listed on &lt;a href="https://github.com/shiraji/color-manager/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;&lt;/p&gt;
+    
+    </change-notes>
+  <idea-version since-build="143"/>
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="Color Manager" anchor="right" factoryClass="com.github.shiraji.colormanager.view.ColorManagerToolWindow"/>
+  </extensions>
+  <application-components/>
+  <project-components/>
+  <actions/>
+</idea-plugin>
